@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  # --- The Database ---
+  db:
+    image: mysql:8.0
+    container_name: wordpress-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: wppassword
+    volumes:
+      - db_data:/var/lib/mysql
+
+  # --- WordPress ---
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress-site
+    restart: always
+    ports:
+      - "8090:80" # 👈 using 8090 so it won't clash with your other project on 8080
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppassword
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wp_data:/var/www/html
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+  wp_data:
