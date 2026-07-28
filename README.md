@@ -32,17 +32,17 @@ legal pages, and GDPR/cookie consent — all in Dutch.
 ### Homepage
 ![Header and hero banner](Screenshot_1.png)
 
-![Weekend deals and product grid](Screenshot_3.png)
+![Weekend deals and product grid](Screenshot_2.png)
 
-![Popular categories and sports](Screenshot_2.png)
+![Popular categories and sports](Screenshot_3.png)
 
-![Shop by brand banners](Screenshot_5.png)
+![Shop by brand banners](Screenshot_4.png)
 
-![Collection banners](Screenshot_6.png)
+![Collection banners](Screenshot_5.png)
 
-![Collection banners continued](Screenshot_7.png)
+![Collection banners continued](Screenshot_6.png)
 
-![Popular brands](Screenshot_4.png)
+![Popular brands](Screenshot_7.png)
 
 ![Footer](Screenshot_8.png)
 
