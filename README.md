@@ -29,14 +29,25 @@ legal pages, and GDPR/cookie consent — all in Dutch.
 
 ## Screenshots
 
-**Homepage**
-![Homepage hero](screenshots/homepage-hero.png)
-![Brand banners](screenshots/homepage-brands.png)
-![Category grid](screenshots/homepage-categories.png)
-![Deals section](screenshots/homepage-deals.png)
+### Homepage
+![Header and hero banner](Screenshot_1.png)
 
-**Product page**
-![Product page](screenshots/product-page.png)
+![Weekend deals and product grid](Screenshot_3.png)
 
-**Cart**
-![Cart](screenshots/cart.png)
+![Popular categories and sports](Screenshot_2.png)
+
+![Shop by brand banners](Screenshot_5.png)
+
+![Collection banners](Screenshot_6.png)
+
+![Collection banners continued](Screenshot_7.png)
+
+![Popular brands](Screenshot_4.png)
+
+![Footer](Screenshot_8.png)
+
+### Product page
+![Product page](Screenshot_9.png)
+
+### Cart
+![Cart](Screenshot_10.png)
